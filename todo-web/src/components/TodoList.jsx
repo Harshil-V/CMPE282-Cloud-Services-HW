@@ -4,7 +4,7 @@ import TodoItem from './TodoItem';
 
 function TodoList({ todos, toggleTodo, deleteTodo }) {
   if (todos.length === 0) {
-    return <Text>No Todos!</Text>;
+    return <Text>Add a task/to do!!!</Text>;
   }
 
   return (

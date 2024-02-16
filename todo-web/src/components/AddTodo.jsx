@@ -26,11 +26,11 @@ function AddTodo({ addTodo }) {
             <HStack mt="8">
                 <Input
                     variant="filled"
-                    placeholder="Add a new todo..."
+                    placeholder="Add a new to do..."
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                 />
-                <Button colorScheme="pink" px="8" type="submit">Add Todo</Button>
+                <Button colorScheme="blue" px="8" type="submit">Add</Button>
             </HStack>
         </form>
     );

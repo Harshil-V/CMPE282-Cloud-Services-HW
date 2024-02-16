@@ -27,8 +27,8 @@ function App() {
 	};
 
 	return (
-		<VStack p={4}>
-			<Heading mb="8">Todo Application</Heading>
+		<VStack p={10}>
+			<Heading mb="8">To Do List ✅</Heading>
 			<AddTodo addTodo={addTodo} />
 			<TodoList todos={todos} toggleTodo={toggleTodo} deleteTodo={deleteTodo} />
 		</VStack>
